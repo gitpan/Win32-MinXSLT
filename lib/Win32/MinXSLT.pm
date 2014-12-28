@@ -2,11 +2,9 @@ use strict;
 use warnings;
 
 package Win32::MinXSLT;
-
+$Win32::MinXSLT::VERSION = '0.04';
 use Carp;
 use Win32::OLE;
-
-our $VERSION = '0.03';
 
 our $Dom;
 our $MsVer;
@@ -75,7 +73,7 @@ sub parse_stylesheet { $_[1]; }
 # **************************************************************************
 
 package Win32::MinXML;
-
+$Win32::MinXML::VERSION = '0.04';
 use Carp;
 use Win32::OLE;
 
